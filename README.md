@@ -14,7 +14,7 @@ You should now be able to run `tox` in the project's base directory, and the tes
 1. Create a `bugfix` branch off from `main`, fix the failing test, and push that branch to your repo.
 1. Create a merge request to merge that branch into upstream's `main` branch.
 1. Create a `qa` branch off of `main`.
-1. Fix the code quality issues, and push your fixes to your `qa` branch.
+1. Fix the code quality issues reported by `flake8`/`black`, and push your fixes to your `qa` branch.
 1. Create a merge request to merge that branch into upstream's `main` branch.
 
 You're done! Thanks for stepping through this exercise.
