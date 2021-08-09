@@ -5,7 +5,7 @@
 This might all work on Windows, but that's untested.
 
 1. Fork this project on gitlab, and clone it to your workstation.
-1. Create a virtualenv for the modules in the dev-requirements.txt file, and enable it.
+1. Create a virtualenv called 'venv' for the modules in the dev-requirements.txt file, and enable it.
 
 You should now be able to run `tox` in the project's base directory, and the tests for the project will run. One of the tests should fail, and both `black` and `flake8` will complain
 
