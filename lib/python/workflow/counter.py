@@ -31,4 +31,5 @@ class Counter(object):
 
 
     def decrement(self):
+        self.value -= 1
         return self.value
